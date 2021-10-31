@@ -1,0 +1,31 @@
+.header, .nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#231E23;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 5px solid #39A6A3;
+    position: fixed;
+    width:100vw;
+    z-index:1;
+
+}
+
+.logo-item {
+    margin-left: 20px;
+    color: #BF1363;
+}
+
+.nav {
+    margin: 20px 20px 0 10px;
+    color: #dedede;
+    font-size: larger;
+}
+
+.nav-item:hover {
+    color:#BF1363;
+    cursor: pointer;
+}
