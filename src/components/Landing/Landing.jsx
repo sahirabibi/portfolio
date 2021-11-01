@@ -14,7 +14,7 @@ function Landing(props) {
 				<div className='right'>
 					<TypeAnimation
 						cursor={false}
-						sequence={["Hi. I'm Sahira.", 3000]}
+						sequence={["Hey there, I'm Sahira.", 3000]}
 						wrapper='h1'
 					/>
 					<TypeAnimation
@@ -22,13 +22,13 @@ function Landing(props) {
 						sequence={[
 							'I am a Software Engineer.',
 							3000,
-							'I am a Web Developer.',
+							'I am a Web Developer 🖥',
 							3000,
-							'I love designing beautiful interfaces.',
+							'I love designing beautiful interfaces ✨',
 							3000,
-							'I am an avid reader.',
+							'I am an avid reader 📚',
 							3000,
-							'I am a horror enthusiast.',
+							'I am a horror enthusiast 👻',
 							3000,
 							'Let build something together.',
 						]}

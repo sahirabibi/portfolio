@@ -7,8 +7,9 @@ function About(props) {
 		<section className='about-container'>
 			<div className='right section-info about-me'>
 				<h2>Get To Know Me</h2>
+				{/* <a href="https://cdnlogo.com/logo/python_358.html"><img src="https://cdn.cdnlogo.com/logos/p/3/python.svg"/></a> */}
 				<p className='about-info'>
-					I am currently based in Brooklyn, NY. A software developer, trained
+					I am currently based in Brooklyn, NY. A am a software developer, trained
 					researcher, and avid reader and writer with a passion for finding
 					creative and analytical solutions to life's many problems. I am driven
 					by work that serves to generate new and innovative solutions that
