@@ -19,7 +19,7 @@ function Project({project}) {
 					<p>{project.description}</p>
 					<div className='site-links'>
 						<a target='_blank' href={project.link}>
-							<button className='project-btn'>View Live Site</button>
+							<button className='btn project-btn'>View Live Site</button>
 							<div>{project.github}</div>
 						</a>
 					</div>

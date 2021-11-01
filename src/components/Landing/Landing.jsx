@@ -7,7 +7,7 @@ import programmer from '../../assets/programmer.png'
 function Landing(props) {
 
     return (
-			<div className='landing'>
+			<div id='home' className='landing'>
 				<div className='left'>
 					<img className='pic' src={programmer} alt='programmer' />
 				</div>
@@ -16,6 +16,7 @@ function Landing(props) {
 						cursor={false}
 						sequence={["Hey there, I'm Sahira.", 3000]}
 						wrapper='h1'
+						className='landing-title'
 					/>
 					<TypeAnimation
 						cursor={true}

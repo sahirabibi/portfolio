@@ -4,7 +4,7 @@ import profile from '../../assets/profilepic.png'
 function About(props) {
     
 	return (
-		<section className='about-container'>
+		<section id='about' className='about-container'>
 			<div className='right section-info about-me'>
 				<h2>Get To Know Me</h2>
 				{/* <a href="https://cdnlogo.com/logo/python_358.html"><img src="https://cdn.cdnlogo.com/logos/p/3/python.svg"/></a> */}

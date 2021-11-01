@@ -4,7 +4,7 @@ import Project from './Project';
 
 function Projects(props) {
     return (
-        <div>
+        <div id='projects'>
             <h2 className='projects-title'>Projects</h2>     
             {projects.map(project => <Project project={project}/>)}
         </div>

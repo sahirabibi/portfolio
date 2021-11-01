@@ -1,9 +1,17 @@
+a {
+    text-decoration: none;
+    color:white;
+}
+
+
+
 .header, .nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color:#231E23;
     justify-content: space-between;
+    transition: all 250ms ease;
 }
 
 .header {
@@ -11,7 +19,7 @@
     position: fixed;
     width:100vw;
     z-index:1;
-
+    height:fit-content
 }
 
 .logo-item {
@@ -24,6 +32,7 @@
     color: #dedede;
     font-size: larger;
 }
+
 
 .nav-item:hover {
     color:#BF1363;

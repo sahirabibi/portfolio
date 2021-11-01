@@ -6,11 +6,21 @@ function Header(props) {
 			<div className='header'>
 				<h1 className='logo-item'>bb</h1>
 				<ul className='nav'>
-					<li className='nav nav-item'>About</li>
-					<li className='nav nav-item'>Skills</li>
-					<li className='nav nav-item'>Projects</li>
-					<li className='nav nav-item'>Resume</li>
-					<li className='nav nav-item'>Contact</li>
+					<a href='#home'>
+						<li className='nav nav-item'>Home</li>
+					</a>
+					<a href='#about'>
+						<li className='nav nav-item'>About</li>
+					</a>
+					<a href='#skills'>
+						<li className='nav nav-item'>Skills</li>
+					</a>
+					<a href='#projects'>
+						<li className='nav nav-item'>Projects</li>
+					</a>
+					<a href='#contact'>
+						<li className='nav nav-item'>Contact</li>
+					</a>
 				</ul>
 			</div>
 		);
