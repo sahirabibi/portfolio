@@ -5,7 +5,7 @@ import './Skills.css'
 function Skills(props) {
 	return (
 		<div id='skills' className='skills-container'>
-			<h2 className='skills-title'>Stack I Use</h2>
+			<h2 className='skills-title'>Tools In My Belt</h2>
 			<div className='stacks'>
 				{stacks.map((stack) => (
 					<div className='stack-item'>
