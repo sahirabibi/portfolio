@@ -4,7 +4,7 @@ import './Header.css'
 function Header(props) {
     return (
 			<div className='header'>
-				<h1 className='logo-item'>bb</h1>
+				<h1 className='logo-item'>sb</h1>
 				<ul className='nav'>
 					<a href='#home'>
 						<li className='nav nav-item'>Home</li>
