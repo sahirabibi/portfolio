@@ -8,10 +8,18 @@ export const projects = [
 	{
 		title: 'Trivia',
 		description:
-			'A fun api-configured web app to test a users knowledge in ten different categories. Trivia is a frontend only game that tests users knowledge about a topic of their choice with ten multiple choice questions.Current categories are: General Knowledge, Celebrities, Entertainment: Books, Entertainment: Films, Entertainment: Japanese Anime and Manga, Animals, Sports, Science: Computers. Users can also select level of difficulty: Easy, Medium, Hard. The game will keep track of the users score and let them know how many they got correct at the end of a round.',
-		image:(<img className='site-img' src={trivia}></img>),
+			'A fun api-configured web app to test a users knowledge in ten different categories. Current categories are: General Knowledge, Celebrities, Entertainment: Books, Entertainment: Films, Entertainment: Japanese Anime and Manga, Animals, Sports, Science: Computers. Users can also select level of difficulty: Easy, Medium, Hard. The game will keep track of the users score and let them know how many they got correct at the end of a round.',
+		image: <img className='site-img' src={trivia}></img>,
 		link: 'https://sahirabibi.github.io/trivia-web-app/',
 		stacks: ['Javascript', 'HTML', 'CSS'],
+		github: (
+			<a href='https://github.com/sahirabibi/trivia-web-app' target='_blank'>
+				<img
+					className='icon github'
+					src='https://cdn.cdnlogo.com/logos/g/69/github-icon.svg'
+				/>
+			</a>
+		),
 	},
 	{
 		title: 'Reads',
@@ -20,6 +28,14 @@ export const projects = [
 		image: <img className='site-img' src={reads}></img>,
 		link: 'https://readsnreads.netlify.app/',
 		stacks: ['Javascript', 'HTML', 'CSS', 'React'],
+		github: (
+			<a target='_blank' href='https://github.com/sahirabibi/react-reads'>
+				<img
+					className='icon github'
+					src='https://cdn.cdnlogo.com/logos/g/69/github-icon.svg'
+				/>
+			</a>
+		),
 	},
 	{
 		title: 'ParkPass',
@@ -36,6 +52,14 @@ export const projects = [
 			'Express',
 			'PostgresSQL',
 		],
+		github: (
+			<a target='_blank' href='https://github.com/SEIR-809-Hackers'>
+				<img
+					className='icon github'
+					src='https://cdn.cdnlogo.com/logos/g/69/github-icon.svg'
+				/>
+			</a>
+		),
 	},
 	{
 		title: 'Wandr',
@@ -44,5 +68,13 @@ export const projects = [
 		image: <img className='site-img' src={wandr}></img>,
 		link: 'https://wandr.netlify.app/',
 		stacks: ['Javascript', 'HTML', 'CSS', 'React', 'Django', 'Python', 'AWS'],
+		github: (
+			<a target='_blank' href='https://github.com/MusicPassport'>
+				<img
+					className='icon github'
+					src='https://cdn.cdnlogo.com/logos/g/69/github-icon.svg'
+				/>
+			</a>
+		),
 	},
 ];

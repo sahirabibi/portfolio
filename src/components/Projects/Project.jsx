@@ -17,9 +17,13 @@ function Project({project}) {
 				<div className='project-info'>
 					<h3>{project.title}</h3>
 					<p>{project.description}</p>
-					<a href={project.link}>
-						<button>View Live Site</button>
-					</a>
+					<div className='site-links'>
+						<a target='_blank' href={project.link}>
+							<button className='project-btn'>View Live Site</button>
+							<div>{project.github}</div>
+						</a>
+					</div>
+
 					<div className='stacks'>
 						{usedStacks.map((stack) => (
 							<div className='stack-item'>

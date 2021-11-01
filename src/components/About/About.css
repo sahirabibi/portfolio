@@ -27,7 +27,6 @@
     width:300px;
     height:300px;
     margin-top:20%;
-    /* background-image: linear-gradient(to bottom right,#e078a9,#59dbd7, #e078a9) */
     background-color:#231E23;
     border:5px solid #BF1363;
 }
@@ -40,6 +39,8 @@
 
 h2 {
     font-size: 2rem;
+    width:fit-content;
+    margin: 0 auto;
 }
 
 .about-me > h2 {
