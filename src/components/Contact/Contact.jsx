@@ -1,5 +1,5 @@
 import React from 'react';
-import contacts from '/Users/sahirabibi/sei/projects/portfolio/src/data/contactslogos.jsx';
+import contacts from '../../contactslogos';
 import './Contact.css'
 
 
