@@ -97,28 +97,6 @@ export const stacks = [
 		),
 	},
 	{
-		title: 'AWS',
-		link: (
-			<a href='https://cdnlogo.com/logo/aws_29177.html'>
-				<img
-					className='icon'
-					src='https://cdn.cdnlogo.com/logos/a/19/aws.svg'
-				/>
-			</a>
-		),
-	},
-	{
-		title: 'React Router',
-		link: (
-			<a href='https://cdnlogo.com/logo/react-router_36401.html'>
-				<img
-					className='icon'
-					src='https://cdn.cdnlogo.com/logos/r/97/react-router.svg'
-				/>
-			</a>
-		),
-	},
-	{
 		title: 'Bootstrap',
 		link: (
 			<a href='https://cdnlogo.com/logo/bootstrap-5_40714.html'>
@@ -129,6 +107,15 @@ export const stacks = [
 			</a>
 		),
 	},
+	{
+		title: 'AWS',
+		link: (
+			<a href='https://cdnlogo.com/logo/aws_29177.html'>
+				<img
+					className='icon'
+					src='https://cdn.cdnlogo.com/logos/a/19/aws.svg'
+				/>
+			</a>
+		),
+	},
 ];
-
-
