@@ -1,0 +1,36 @@
+.skills-container {
+    margin:0 auto;
+    width:60%;
+    height:500px;
+}
+
+.skills-title {
+    background: linear-gradient(
+180deg,transparent 60%,#8dffaf 0);
+    background-size: 50%;
+    width:max-content;
+    margin: 0 auto;
+}
+
+
+.icon {
+    object-fit: contain;
+    height:50px;
+    width:50px;
+}
+
+.stack-item {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin:20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.stacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

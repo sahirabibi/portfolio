@@ -1,15 +1,12 @@
 import React from 'react';
+import { projects } from '../../data/projects'
+import Project from './Project';
 
 function Projects(props) {
     return (
         <div>
-            <h2>Projects</h2>
-            <ul>
-                <li>Trivia</li>
-                <li>Reads</li>
-                <li>ParkPass</li>
-                <li>Wandr (coming soon...)</li>
-            </ul>       
+            <h2>Projects</h2>     
+            {projects.map(project => <Project project={project}/>)}
         </div>
     );
 }
