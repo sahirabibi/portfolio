@@ -31,7 +31,7 @@ function Landing(props) {
 							3000,
 							'I am a horror enthusiast 👻',
 							3000,
-							'Let build something together.',
+							'Lets build something together.',
 						]}
 						wrapper='h2'
 					/>
