@@ -9,7 +9,9 @@ function Landing(props) {
     return (
 			<div id='home' className='landing'>
 				<div className='left'>
-					<img className='pic' src={programmer} alt='programmer' />
+					<div className='landing-img-container'>
+						<img className='landing-img' src={programmer} alt='programmer' />
+					</div>
 				</div>
 				<div className='right'>
 					<TypeAnimation
