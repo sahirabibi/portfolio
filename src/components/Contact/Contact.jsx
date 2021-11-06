@@ -1,9 +1,32 @@
 import React from 'react';
 import contacts from '../../data/contactslogos';
 import './Contact.css'
+import {useState} from 'react'
+import Alert from 'react-bootstrap/Alert';
+import emailjs from 'emailjs-com';
 
 
 function Contact(props) {
+const [show, setShow] = useState(false);
+
+function handleSubmit(e) {
+	e.preventDefault();
+	emailjs
+		.sendForm(
+			'service_xfwcbp5',
+			'template_20euk9d',
+			e.target,
+		)
+		.then(
+			(result) => {
+				console.log(result);
+			},
+			(error) => {
+				console.log(error.text);
+			}
+		);
+	setShow(true);
+};
     return (
 			<div id='contact' className='contact-container'>
 				<div className='contact-details'>
@@ -15,7 +38,13 @@ function Contact(props) {
 					</div>
 				</div>
 				<div className='contact-form-container'>
-					<form className='contact-form' action=''>
+					<form
+						className='contact-form'
+						action='mailto:sahirabibi96@gmail.com'
+						method='POST'
+						enctype='multipart/form-data'
+						name='EmailForm'
+						onSubmit={handleSubmit}>
 						<input className='form-item' type='text' placeholder='your name' />
 						<input className='form-item' type='text' placeholder='your email' />
 						<textarea
@@ -25,6 +54,9 @@ function Contact(props) {
 							cols='40'
 							rows='10'
 							placeholder='your message'></textarea>
+						<Alert variant='success' id='contact-alert' show={show} >
+							Message Sent!
+						</Alert>
 						<button className='btn form-btn'>Submit</button>
 					</form>
 				</div>

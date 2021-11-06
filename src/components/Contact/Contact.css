@@ -4,7 +4,7 @@
      display: flex;
      flex-direction: row;
      justify-content: space-around;
-     width:60%;
+     width:95%;
      background-color: #d0ddeca6;
      border-radius: 20px;
      box-shadow: 5px 5px 5px rgba(54, 53, 53, 0.322);
@@ -52,4 +52,15 @@
     background-color: #adcbf1;
     color:white;
     cursor:pointer;
+}
+
+@media (max-width: 800px) {
+    .contact-container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .contact-details {
+        margin: 5% auto;
+    }
+	
 }
