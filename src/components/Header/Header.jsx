@@ -3,9 +3,9 @@ import './Header.css';
 
 function Header(props) {
 	return (
-		<div className='header'>
-			<h1 className='logo-item'>sb</h1>
+		<div className='nav-header'>
 			<nav class='navbar navbar-expand-lg navbar-dark'>
+				<h1 className='logo-item'>sb</h1>
 				<button
 					class='navbar-toggler'
 					type='button'
@@ -36,7 +36,8 @@ function Header(props) {
 						<a
 							class='nav-item nav-link'
 							href='https://docs.google.com/document/d/14mZyFVWBE1qoxXGAAg_P425PHsRcF7RC43q_EBvdd30/edit?usp=sharing'
-							target='_blank' rel="noreferrer">
+							target='_blank'
+							rel='noreferrer'>
 							Resume <span class='sr-only'>(current)</span>
 						</a>
 					</div>
