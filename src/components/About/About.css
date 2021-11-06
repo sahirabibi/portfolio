@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Raleway:ital,wght@0,100;0,500;0,700;0,800;0,900;1,100;1,500;1,600;1,900&family=Satisfy&family=Seaweed+Script&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700&family=Zen+Kurenaido&display=swap');
 
+h2 {
+    font-size: 2rem;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.about-me > h2 {
+    background: linear-gradient(
+180deg,transparent 60%,#e8ff8d 0);
+    background-size: 50%;
+}
+
+.about-me > p {
+    color:#312c2f;
+    padding: 20px;
+}
 
 .about-container {
     height: 500px;
@@ -24,6 +40,7 @@
 }
 
 .profile {
+    border-radius: 50%;
     object-fit: contain;
     width:300px;
     height:300px;
@@ -38,22 +55,6 @@
     
 }
 
-h2 {
-    font-size: 2rem;
-    width:fit-content;
-    margin: 0 auto;
-}
-
-.about-me > h2 {
-    background: linear-gradient(
-180deg,transparent 60%,#e8ff8d 0);
-    background-size: 50%;
-}
-
-.about-me > p {
-    color:#312c2f;
-    padding: 20px;
-}
 
 .about-info {
     font-size: 100%;
@@ -64,12 +65,32 @@ h2 {
 @media (max-width:800px) {
     .about-container {
         display:block;
+        margin-top: 5%;
     }
     .profile {
         /* margin: -20px auto; */
-        width: 100px;
-        height:100px;
-        margin-top: 0%;
+        width: 200px;
+        height:200px;
+        margin-top: 5%;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:440px) {
+    .about-container {
+        display:block;
+        margin-top: 30%;
+        font-size: 80%;
+    }
+    .profile {
+        /* margin: -20px auto; */
+        width: 200px;
+        height:200px;
+        margin-top: 5%;
     }
 
     .left-section {
