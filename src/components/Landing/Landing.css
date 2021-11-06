@@ -1,11 +1,16 @@
+div {
+    display: block;
+}
+
 .landing {
     /* position: absolute; */
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 5px solid #666066;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
    
 }
 
@@ -13,21 +18,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
     color:#DEEEEA;
     width:40%;
     
 }
 
 .left > img {
-    position:relative;
+    /* position:relative; */
     /* z-index: 1; */
     object-fit: contain;
 
 }
 
 .right {
-    background-color: #231E23;
+    /* background-color: #231E23; */
     color:#DEEEEA;
     width:60%;
     display: flex;
@@ -52,4 +57,20 @@
 h2 {
     color:#BF1363;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+@media (max-width:800px) {
+    .left, .right {
+        width:100%;
+    }
+    .left {
+        height:10%;
+    }
+
+    .pic {
+    height:60vh;
+    width:60vw;
+    margin:auto;
+}
+
 }

@@ -5,6 +5,7 @@
     height: 500px;
     display:flex;
     flex-direction: row;
+    margin: 5% auto;
 }
 
 .title {
@@ -33,7 +34,7 @@
 
 .about-me {
     /* border: 5px solid #59dbd7; */
-    padding:0 50px;
+    padding:20px 50px;
     
 }
 
@@ -50,10 +51,28 @@ h2 {
 }
 
 .about-me > p {
-    color:#312c2f
+    color:#312c2f;
+    padding: 20px;
 }
 
 .about-info {
-    font-size: 1.3rem;
+    font-size: 100%;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+@media (max-width:800px) {
+    .about-container {
+        display:block;
+    }
+    .profile {
+        margin: 5% auto;
+        width: 150px;
+        height:150px;
+    }
+
+    .left-section {
+        width: 100%;
+    }
+
 }

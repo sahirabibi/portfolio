@@ -1,41 +1,33 @@
-
 .projects-title {
-    background: linear-gradient(
-180deg,transparent 50%,#8fe5ff 0);
-
-
+	background: linear-gradient(180deg, transparent 50%, #8fe5ff 0);
 }
-
 
 h3 {
-    font-size: 2rem;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    background: linear-gradient(
-180deg,transparent 50%,#9db9f5 0);
-width:max-content;
-margin: 10px auto;
+	font-size: 2rem;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	background: linear-gradient(180deg, transparent 50%, #9db9f5 0);
+	width: max-content;
+	margin: 10px auto;
 }
-
 
 p {
-    font-size: 1rem;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    text-align: left;
+	font-size: 1rem;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	text-align: left;
 }
-
 
 .project-container {
 	display: flex;
 	flex-direction: column;
 	border: 1px solid rgba(139, 135, 135, 0.247);
 	margin: 20px auto;
-	width: 70vw;
+	width: 90vw;
 	padding: 30px;
-
 }
 
-.project-container, .site-img {
-    border-radius: 20px;
+.project-container,
+.site-img {
+	border-radius: 20px;
 	box-shadow: 5px 7px 5px rgba(110, 106, 106, 0.582);
 }
 
@@ -45,9 +37,8 @@ p {
 }
 
 .site-img {
-	object-fit: cover;
+	object-fit: contain;
 	height: 100%;
-	width: 65%;
 	border: 3px solid #ffffff;
 }
 
@@ -56,21 +47,29 @@ p {
 	margin: 0 auto;
 }
 
-
 .github {
-    height:30px;
-    width:30px;
-
+	height: 30px;
+	width: 30px;
 }
 
 .btn {
-    margin: 0 10px 10px;
-    border:none;
-    padding:15px;
-    border-radius: 10px;
+	margin: 0 10px 10px;
+	border: none;
+	padding: 15px;
+	border-radius: 10px;
 }
 
 .project-btn:hover {
-    background-color: #9db9f5;
-    cursor:pointer;
+	background-color: #9db9f5;
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+	.project-container {
+		width: 90vw;
+	}
+
+    .site-img {
+         width:100%;
+    }
 }

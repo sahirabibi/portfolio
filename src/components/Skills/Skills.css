@@ -1,7 +1,7 @@
 .skills-container {
-    margin:0 auto;
+    margin:2% auto 5%;
     width:50%;
-    height:500px;
+    /* height:auto; */
 }
 
 .skills-title {
@@ -9,9 +9,8 @@
 180deg,transparent 60%,#8dffaf 0);
     background-size: 50%;
     width:max-content;
-    margin: 0 auto;
+    margin: 15% auto 2%;
 }
-
 
 .icon {
     object-fit: contain;
@@ -33,4 +32,10 @@
     flex-wrap: wrap;
     justify-content: center;
 
+}
+
+@media (max-width:800px) {
+    .skills-container {
+        width:80%;
+    }
 }
