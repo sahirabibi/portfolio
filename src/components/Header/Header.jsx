@@ -33,6 +33,12 @@ function Header(props) {
 						<a class='nav-item nav-link' href='#contact'>
 							Contact <span class='sr-only'>(current)</span>
 						</a>
+						<a
+							class='nav-item nav-link'
+							href='https://docs.google.com/document/d/14mZyFVWBE1qoxXGAAg_P425PHsRcF7RC43q_EBvdd30/edit?usp=sharing'
+							target='_blank' rel="noreferrer">
+							Resume <span class='sr-only'>(current)</span>
+						</a>
 					</div>
 				</div>
 			</nav>
