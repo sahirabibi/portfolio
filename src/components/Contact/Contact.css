@@ -62,5 +62,9 @@
     .contact-details {
         margin: 5% auto;
     }
+
+    .contact-form-container {
+        border-radius: 0%;
+    }
 	
 }

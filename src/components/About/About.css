@@ -66,9 +66,10 @@ h2 {
         display:block;
     }
     .profile {
-        margin: -20px auto;
-        width: 150px;
-        height:150px;
+        /* margin: -20px auto; */
+        width: 100px;
+        height:100px;
+        margin-top: 0%;
     }
 
     .left-section {
