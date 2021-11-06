@@ -14,7 +14,8 @@ a {
     transition: all 250ms ease;
 }
 
-.header {
+.nav-header {
+    background-color:#231E23 !important;
     border-bottom: 5px solid #3b7dd0;
     position: fixed;
     width:100%;
@@ -42,4 +43,9 @@ a {
 
 .bg-light {
     background-color: #231E23;
+}
+
+.navbar .navbar-collapse {
+  text-align: center !important;
+  background-color:#231E23 !important;
 }
