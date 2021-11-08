@@ -16,7 +16,7 @@ a {
 
 .nav-header {
     background-color:#231E23 !important;
-    border-bottom: 5px solid #BF1363;;
+    border-bottom: 5px solid #c75e8f;;
     position: fixed;
     width:100%;
     z-index:1;
@@ -26,7 +26,7 @@ a {
 .logo-item {
     margin: auto 0;
     margin-left: 20px;
-    color: #BF1363;
+    color: #c75e8f;
 }
 
 .nav {
