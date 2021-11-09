@@ -16,7 +16,7 @@ a {
 
 .nav-header {
     background-color:#231E23 !important;
-    border-bottom: 5px solid #BF1363;;
+    border-bottom: 5px solid #BF1363;
     position: fixed;
     width:100%;
     z-index:1;

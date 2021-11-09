@@ -1,11 +1,11 @@
 .projects-title {
-	background: linear-gradient(180deg, transparent 50%, #8fe5ff 0);
+	background: linear-gradient(180deg, transparent 60%, #8fe5ff 0);
 }
 
 h3 {
 	font-size: 2rem;
 	font-family: 'Zen Kaku Gothic Antique', sans-serif;
-	background: linear-gradient(180deg, transparent 50%, #9db9f5 0);
+	background: linear-gradient(180deg, transparent 60%, #9db9f5 0);
 	width: max-content;
 	margin: 10px auto;
 }
